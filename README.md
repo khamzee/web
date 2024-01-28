@@ -52,6 +52,7 @@ node server.js
 Open the application in your browser:
 
 http://localhost:3000
+
 Dependencies:
 
 Express: Web application framework for Node.js
