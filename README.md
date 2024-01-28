@@ -8,25 +8,30 @@ Homepage (index.html):
 
 Display of available tour destinations with images, titles, and costs.
 Responsive navigation bar with links for easy navigation.
+
 Travel Agency Booking (travelagency.html):
 
 Form for users to book a tour, including options for selecting a destination, hotel, car rental, arrival and departure dates, and the number of adults and children.
 Integration with the OpenWeatherMap API to provide real-time weather information for the selected destination.
 Responsive design for a pleasant user experience.
+
 Tour History (history.html):
 
 Display of a history list with details of booked tours, including destination, hotel, car rental, dates, number of adults and children, tour cost, weather, and timestamp.
 Buttons to edit or delete each tour entry.
 Total cost calculation for all tours.
+
 Server (server.js):
 
 Node.js server using Express for handling routes and requests.
 Integration with external APIs (OpenWeatherMap) for weather information.
 CRUD operations for managing tour history.
 Calculation of the total cost of booked tours.
+
 Routes (travelRoutes.js):
 
 Express router handling routes related to the travel agency, including booking, editing, deleting, and viewing tour history.
+
 How to Run:
 
 Clone the repository:
