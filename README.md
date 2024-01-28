@@ -26,16 +26,25 @@ Routes (travelRoutes.js):
 
 Express router handling routes related to the travel agency, including booking, editing, deleting, and viewing tour history.
 How to Run:
+
 Clone the repository:
+
 git clone https://github.com/your-username/travel-agency-web.git
+
 Install dependencies:
-bash
+
 cd travel-agency-web
+
 npm install
+
 Start the server:
+
 node server.js
+
 Open the application in your browser:
+
 http://localhost:3000
+
 Dependencies:
 Express: Web application framework for Node.js
 Axios: Promise-based HTTP client for making API requests
